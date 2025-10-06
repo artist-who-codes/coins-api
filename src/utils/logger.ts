@@ -19,5 +19,7 @@ export function serverLogger(
         error: '❌',
     };
 
-    console.log(`\n\n\n${colors[type]}${prefix[type]} ${message[type]} ${reset}\n\n\n`);
+    console.log(
+        `\n\n\n${colors[type]}${prefix[type]} ${message[type]} ${reset}\n\n\n`
+    );
 }
