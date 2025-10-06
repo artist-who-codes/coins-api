@@ -35,13 +35,13 @@ export default tseslint.config(
             'prettier/prettier': [
                 'error',
                 {
-                    tabWidth: 4, // 4 spaces
-                    useTabs: false, // no tabs
-                    singleQuote: true, // single quotes
-                    semi: true, // semicolons
+                    endOfLine: 'auto',
+                    tabWidth: 4,
+                    singleQuote: true,
+                    semi: true,
                     trailingComma: 'es5',
                 },
             ],
         },
-    },
+    }
 );
